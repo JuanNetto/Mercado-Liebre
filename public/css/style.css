@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+}
+
+header{
+    background: yellow;  
+    border-bottom: solid 3px black;
+}
+
+.header-logo{
+    width: 200px;
+    height: 60px;
+}
+
+
+.header-superior{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.header-superior .form .boton-buscar{
+    height: 36px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+header .form input{
+    width: 300px;
+    height: 30px;
+}
+
+header .form p{
+    padding-left: 300px;
+}
+
+.header-inferior{
+    border-top: solid 2px black;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li{
+    border: solid 1px black;
+}
+
+header nav .general-nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav .general-nav li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header nav .general-nav a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav .login-buttons{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav .login-buttons li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header nav .login-buttons a{
+    text-decoration: none;
+    color: black;
+}
+
+div.ultima-visita,
+div.ofertas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.precio{
+    font-size: 18px;
+    width: 30%;
+}
+
+.descuento{
+    width: 70%;
+}
+
+.descuento,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.description{
+    color: #666;
+}
+
+.description{
+    display: none;
+    margin-top: 20px;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main div article{
+    background-color: #fff;    
+    margin: 10px 0px;
+}
+
+main div article img{
+    width: 100%;
+}
+
+main div article i,
+.descuento{
+    color: #39b54a;
+}
+
+main div article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+main div h3{
+    margin: 20px 0px;
+}
+
+article div.articulo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+}
+
+@media (min-width: 361px){
+    main div article .description{
+        display: block;
+    }
+
+    main div article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    main div div.productos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    main div div.productos article{
+        width: 45%;
+    }
+
+    .precio,
+    .descuento{
+        width: 50%;
+    }
+}
+
+@media (min-width: 769px){
+    main div div.productos article{
+        width: 22%;
+    }s
+}

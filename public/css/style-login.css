@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+}
+
+header{
+    background: yellow;  
+    border-bottom: solid 3px black;
+}
+
+.header-logo{
+    width: 200px;
+    height: 60px;
+}
+
+.header-superior{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-superior .form .boton-buscar{
+    height: 36px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+header .form input{
+    width: 300px;
+    height: 30px;
+}
+
+header .form p{
+    padding-left: 300px;
+}
+
+.header-inferior{
+    border-top: solid 2px black;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li{
+    border: solid 1px black;
+}
+
+header nav .general-nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav .general-nav li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header nav .general-nav a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav .login-buttons{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav .login-buttons li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header nav .login-buttons a{
+    text-decoration: none;
+    color: black;
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30%;
+}
