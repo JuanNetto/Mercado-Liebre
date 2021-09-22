@@ -1,5 +1,6 @@
 body{
     margin: 0;
+
 }
 
 header{
@@ -12,9 +13,14 @@ header{
     height: 60px;
 }
 
+
 .header-superior{
     display: flex;
     justify-content: space-between;
+}
+
+.banner img{
+    width: 100%;
 }
 
 .header-superior .form .boton-buscar{
@@ -26,6 +32,7 @@ header{
     justify-content: center;
     padding-top: 20px;
 }
+
 
 header .form input{
     width: 300px;
@@ -81,19 +88,21 @@ header nav .login-buttons a{
     color: black;
 }
 
-main{
-    padding-top: 3rem;
-    background: white   ;
-}
-
-main form{
+.intereses{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: grey;
+}
+
+form{
     max-width: 200px;
+    padding: 30px;
+    background: grey;
     margin-left: 500px;
-    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
 }
 
 footer{

@@ -126,6 +126,8 @@ main{
 main div article{
     background-color: #fff;    
     margin: 10px 0px;
+    height: 400px;
+    width: 300px;
 }
 
 main div article img{
@@ -147,8 +149,8 @@ main div article i{
     background-color: #FFF;
     border-radius: 50%;
     position: absolute;
-    right: 20px;
-    top: -15px;
+    right: 30px;
+    top: 15px;
 }
 
 main div h3{
@@ -196,4 +198,44 @@ article div.articulo{
     main div div.productos article{
         width: 22%;
     }s
+}
+
+footer{
+    background: rgba(214, 213, 213, 0.985);
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer section{
+    align-self: center;
+    max-width: 300px;
+    padding-top: 3rem;
+    position: relative;
+}
+
+footer i {
+    color: blue;
+    padding-left: 100px;
+    font-size: 50px;
+}
+
+footer h3{
+    color: black;
+}
+
+
+.articulo i:hover{
+    animation-duration: 1s;
+    animation-name: rotate;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-90deg);
+    }
 }
